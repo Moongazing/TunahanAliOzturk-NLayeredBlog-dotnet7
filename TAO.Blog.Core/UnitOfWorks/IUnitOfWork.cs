@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TAO.Blog.Core.UnitOfWorks
 {
-    public interface UnitOfWork
+    public interface IUnitOfWork
     {
         Task CommitAsync();
         void Commit();
